@@ -5,3 +5,9 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+
+
+tasks = Task.create([{ name: "pain" ,location: "orleans", priority: "normal" },
+  { name: "lait", location: "auvergne", priority: "important" },
+  { name: "vodka", location: "russie", priority: "urgent" },
+  { name: "café", location: "colombie", priority: "urgent" }])
